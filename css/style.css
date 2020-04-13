@@ -5,6 +5,7 @@ body {
     height: 90vh;
     position: relative;
     text-align: center;
+    /*width: 90vw;*/
 }
 /*
 id="div_header" style="margin: 0 auto; width: 200px"
@@ -27,7 +28,10 @@ footer {
     top: 95%;
     /*bottom: 30px;*/
     position: absolute;/*par rapport à la position relative du body*/
-    width: 100vw;
+    width: 99vw;
+    /*99 pour ne pas avoir le scroll quand utilisation des flèches de direction
+    dans le jeu*/
+
 }
 #jouer {
     margin-top: 20px;
