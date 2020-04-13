@@ -31,19 +31,19 @@ window.onkeydown = function (event) {
 
     switch (key_press) {
         case 38 :
-            console.log('up');
+            //console.log('up');
             cat.move_character(38);
             break;
         case 40 :
-            console.log('down');
+            //console.log('down');
             cat.move_character(40);
             break;
         case 39 :
-            console.log('right');
+            //console.log('right');
             cat.move_character(39);
             break;
         case 37 :
-            console.log('left');
+            //console.log('left');
             cat.move_character(37);
             break;
     }
