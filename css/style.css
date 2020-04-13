@@ -1,0 +1,41 @@
+/*
+style="text-align: center; height: 100vh; position: relative
+ */
+body {
+    height: 90vh;
+    position: relative;
+    text-align: center;
+}
+/*
+id="div_header" style="margin: 0 auto; width: 200px"
+ */
+#div_header {
+    margin: 0 auto;
+    width: 200px;
+}
+#div_header h1 {
+    margin-bottom: 0;
+}
+#div_header h5 {
+    margin-top: 0;
+    /*text-align: left;*/
+}
+.display_none {
+    display: none
+}
+footer {
+    top: 95%;
+    /*bottom: 30px;*/
+    position: absolute;/*par rapport à la position relative du body*/
+    width: 100vw;
+}
+#jouer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#message_section1 {
+    margin-top: 90px;
+}
+/*header + section {*/
+/*    background-color: tomato;*/
+/*}*/
