@@ -4,13 +4,10 @@ const btn_play = document.querySelector('#jouer');
 const canvas_display = document.querySelector('.display_none');
 const section1_display = document.querySelector('#section1');
 console.log('section1 = ',section1_display);
-//const btn_text = 'Stop !';
 
 btn_play.addEventListener('click', btn_update);
 
 function btn_update() {
-    console.log('click !');
-    //element.classList.remove("mystyle");
     if (btn_play.value === 'jouer') {
         btn_play.value = 'Stop';
         canvas_display.classList.remove('display_none');
